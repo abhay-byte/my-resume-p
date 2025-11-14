@@ -1,4 +1,4 @@
-{%-------------------------
+%-------------------------
 % ATS-Optimized & Realistic One-Page Resume
 % Author: Priyanshu Gupta (Final Version by AI)
 % License: MIT
@@ -119,15 +119,6 @@
         \resumeItem{Participated in an Agile team of 6 developers, engaging in daily stand-ups and code reviews to deliver features 15\% ahead of sprint deadlines.}
       \resumeItemListEnd
 
-    \resumeSubheading
-      {RS Barcoders Pvt Ltd}{New Delhi, IN}
-      {Software QA Tester Intern}{July 2024 - August 2024}
-      \resumeItemListStart
-        % REALISTIC CHANGE 3: Focus on the action (validation) not the system's overall metric
-        \resumeItem{Performed validation testing on critical modules (inventory, order processing) for an enterprise Warehouse Management System processing 10,000+ daily transactions.}
-        \resumeItem{Developed and integrated an automated unit test suite using Jest, achieving 85\% code coverage and helping reduce regression testing time by 50\%.}
-      \resumeItemListEnd
-
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
@@ -135,189 +126,16 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\href{https://github.com/PriyanshuGupta1102/e-react}{E-Commerce Product Page} \quad $|$ \quad React, Jest, React Testing Library}{July 2024}
+{AI Wrapper Project \quad $|$ \quad Streamlit, Python, OpenAI API, Pandas, Numpy, Plotly}{October 2025}
 \resumeItemListStart
-    \resumeItem{Developed a responsive e-commerce interface with an interactive image gallery, user-controlled quantity selectors, and cart management logic using React Hooks.}
-    \resumeItem{Authored a comprehensive test suite with Jest and React Testing Library, achieving 90\%+ test coverage to ensure component reliability and prevent UI bugs.}
+    \resumeItem{Developed a modular AI-driven platform combining financial tools, news aggregation, and generative AI to assist with investment decisions.}
+    \resumeItem{Integrated a growth projection module to predict investment outcomes based on user-defined parameters like initial amount, time horizon, and expected return.}
+    \resumeItem{Implemented AI-backed portfolio analysis, offering personalized insights on diversification, asset allocation, and risk management.}
+    \resumeItem{Deployed the app with Streamlit for interactive, real-time data visualization and financial forecasting.}
+    \resumeItem{Tech Stack: Python, Streamlit, OpenAI API, Pandas, Numpy, Plotly, News API}
+    \resumeItem{Live App: \href{https://aiwrapper.streamlit.app}{AI Wrapper Live App}}
 \resumeItemListEnd
 
-\resumeProjectHeading
-{\href{https://github.com/PriyanshuGupta1102/node-auth-api}{Secure Authentication API} \quad $|$ \quad Node.js, Express, JWT, Jest}{July 2024}
-\resumeItemListStart
-    \resumeItem{Engineered a secure RESTful API for user registration and login, implementing JSON Web Tokens (JWT) for stateless authentication and bcrypt for password hashing.}
-    \resumeItem{Created an integration test suite using Jest and Supertest to validate all API endpoints, ensuring robust error handling for cases like duplicate emails and invalid credentials.}
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\href{https://github.com/PriyanshuGupta1102/task-api}{Task Management API} \quad $|$ \quad Java, Spring Boot, JUnit, Mockito}{July 2024}
-\resumeItemListStart
-    \resumeItem{Designed a multi-layered RESTful API for task management using Spring Boot, employing a Repository-Service-Controller pattern to ensure modularity.}
-    \resumeItem{Ensured business logic integrity by implementing full CRUD functionality with a 95\% unit test coverage rate using JUnit and Mockito to mock repository layers.}
-\resumeItemListEnd
-
-\resumeSubHeadingListEnd
-
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
-  \resumeSubHeadingListStart
-    \resumeItem{\textbf{Languages}: JavaScript (ES6+), Java, Python, C++, SQL, HTML5, CSS3}
-    \resumeItem{\textbf{Frameworks \& Libraries}: React.js, Node.js, Express.js (MERN), Spring Boot, Jest, JUnit, Mockito, React Testing Library, Material-UI}
-    \resumeItem{\textbf{Databases \& Tools}: MySQL, H2, Git, Docker, Postman, VS Code, IntelliJ IDEA, GitHub Actions}
-    \resumeItem{\textbf{Methodologies \& Concepts}: Full-Stack Development, API Design (REST), TDD, CI/CD, Agile, Quality Assurance, Unit Testing, Integration Testing}
-  \resumeSubHeadingListEnd
-
-%-------------------------------------------
-\end{document}
-
-{%-------------------------
-% ATS-Optimized & Realistic One-Page Resume
-% Author: Priyanshu Gupta (Final Version by AI)
-% License: MIT
-%------------------------
-
-\documentclass[letterpaper,11pt]{article}
-
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-% Standard margins for a full, well-proportioned page
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
-
-\urlstyle{same}
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% ATS-friendly section formatting with balanced spacing
-\titleformat{\section}{
-  \vspace{-4pt}\bfseries\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Ensure PDF is machine readable
-\pdfgentounicode=1
-
-%-------------------------
-% Custom commands with balanced spacing
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-    \textbf{#1} & \textit{\small #2} \\
-    \textit{\small#3} & \textit{\small #4} \\
-  \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{document}
-
-%----------HEADING----------
-\begin{center}
-  \textbf{\Huge Priyanshu Gupta} \\ \vspace{1pt}
-  \small 8800295258 $|$ \href{mailto:pg0000742@gmail.com}{\underline{pg0000742@gmail.com}} $|$
-  \href{https://www.linkedin.com/in/priyanshu-gupta-4ba240259}{\underline{linkedin.com/in/priyanshu-gupta-4ba240259}} $|$
-  \href{https://github.com/PriyanshuGupta1102}{\underline{github.com/PriyanshuGupta1102}}
-\end{center}
-
-%-----------SUMMARY-----------
-\section{Professional Summary}
-  \resumeSubHeadingListStart
-    \resumeItem{A highly motivated engineering student with demonstrated experience in Software Quality Assurance through a targeted internship and technical projects. Proficient in leveraging modern testing frameworks like Jest and JUnit to build automated test suites that achieve high code coverage.}
-  \resumeSubHeadingListEnd
-
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Guru Tegh Bahadur Institute of Technology}{New Delhi, IN}
-      {Bachelor of Technology in Computer Science and Engineering}{November 2022 - Present}
-      \resumeSubItem{Expected Graduation: May 2026 $|$ Current CGPA: 9.13/10}
-  \resumeSubHeadingListEnd
-
-%-----------EXPERIENCE-----------
-\section{Professional Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {SFP Education and Technology Pvt Ltd}{New Delhi, IN}
-      {Full Stack Web Developer Intern}{June 2024 - August 2024}
-      \resumeItemListStart
-        % REALISTIC CHANGE 1: "Contributed to" is more believable than "Engineered"
-        \resumeItem{Contributed to key features for 2 web applications serving 500+ users, using React.js for the front-end and Node.js for the back-end.}
-        % REALISTIC CHANGE 2: "Assisted in" and "contributing to" shows teamwork
-        \resumeItem{Assisted in optimizing database queries and API endpoints, contributing to a 40\% reduction in average server response time (from 800ms to 480ms).}
-        \resumeItem{Participated in an Agile team of 6 developers, engaging in daily stand-ups and code reviews to deliver features 15\% ahead of sprint deadlines.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {RS Barcoders Pvt Ltd}{New Delhi, IN}
-      {Software QA Tester Intern}{July 2024 - August 2024}
-      \resumeItemListStart
-        % REALISTIC CHANGE 3: Focus on the action (validation) not the system's overall metric
-        \resumeItem{Performed validation testing on critical modules (inventory, order processing) for an enterprise Warehouse Management System processing 10,000+ daily transactions.}
-        \resumeItem{Developed and integrated an automated unit test suite using Jest, achieving 85\% code coverage and helping reduce regression testing time by 50\%.}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-%-----------CERTIFICATIONS-----------
-\section{Certifications}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {IBM SkillsBuild and CSRBOX}{New Delhi, IN}
-      {Agentic AI: AI Agent Architect}{July 2025 - July 2025}
-      \resumeItemListStart
-        % REALISTIC CHANGE 1: "Contributed to" is more believable than "Engineered"
-        \resumeItem{Completed an intensive 4-week training program on the architecture and development of autonomous AI agents.}
-        % REALISTIC CHANGE 2: "Assisted in" and "contributing to" shows teamwork
-        \resumeItem{Gained foundational knowledge in Agentic AI principles and practical skills for building intelligent systems.}
-      \resumeItemListEnd
-
-%-----------PROJECTS-----------
-\section{Technical Projects}
-\resumeSubHeadingListStart
 \resumeProjectHeading
 {\href{https://github.com/PriyanshuGupta1102/e-react}{E-Commerce Product Page} \quad $|$ \quad React, Jest, React Testing Library}{July 2025}
 \resumeItemListStart
@@ -337,8 +155,8 @@
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
   \resumeSubHeadingListStart
-    \resumeItem{\textbf{Languages}: JavaScript (ES6+), Java, Python, C++, SQL, HTML5, CSS3}
-    \resumeItem{\textbf{Frameworks \& Libraries}: React.js, Spring Boot, Jest, JUnit, Mockito, React Testing Library}
+    \resumeItem{\textbf{Languages}: Java, Python, C++, SQL, HTML5, CSS3}
+    \resumeItem{\textbf{Frameworks \& Libraries}: Streamlit, Spring Boot, Jest, JUnit, Mockito, React Testing Library}
     \resumeItem{\textbf{Databases \& Tools}: MySQL, Git, Docker, Postman, VS Code, IntelliJ IDEA}
     \resumeItem{\textbf{Methodologies \& Concepts}: API Design (REST), Agile, Quality Assurance, Unit Testing, Integration Testing}
   \resumeSubHeadingListEnd
